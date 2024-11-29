@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Celestial Plate </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #8B4513, #000);
+            color: white;
+        }
+        header {
+            background-color: #4B2E26;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            background-color: #2F1B13;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #8B4513;
+        }
+        section {
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4B2E26;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Celestial Plate</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#book">Book a Table</a>
+        <a href="#order">Make an Order</a>
+    </nav>
+    <section id="home">
+        <section id="home">
+    <h2>Welcome to Our Restaurant</h2>
+    <img src="https://i.pinimg.com/736x/f0/22/d4/f022d44fc03e500bbe44f4c2b6fda7c2.jpg"" alt="Delicious Cuisine" style="width: 100vw; height: 80vh; object-fit: cover; display: block; margin: 0;">
+</section>
+    <p>Experience the taste of fine dining with our exquisite menu!</p>
+</section>
+
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Explore our delicious dishes.</p>
+       <section id="menu" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #4B2E26; color: white;">
+    <h2>Our Menu</h2>
+    <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; width: 90%; height: 80%;">
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/3d/c6/74/3dc6748e937165a171e8f9384716e01d.jpg" alt="Dish 1" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Cesare Salad</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/8c/51/2f/8c512f99e8f6967ba962499c5bc94f82.jpg" alt="Dish 2" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Pork Stake</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/fa/d2/5b/fad25b531e8978f28dd0fe5c001851e4.jpg" alt="Dish 3" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Seafood Pancit</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/73/6c/6a/736c6a09d866e67f5bbd938ece3b4ffe.jpg" alt="Dish 4" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Garlican Beef</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/fd/57/0f/fd570f23ba8933d3316f2a6351f6a7ea.jpg" alt="Dish 5" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Crispy Sesame Chicken</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/d9/b6/c3/d9b6c34fb8794bdc3782052954239c0f.jpg" alt="Dish 6" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Filipino Style Adobo</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/97/8f/84/978f84875ca669d894591a441e5389e4.jpg" alt="Dish 7" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Taccos</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/e7/56/18/e756187a3170b127381fbbb6a8147e6d.jpg" alt="Dish 8" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Creamy Chicken Marrole</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/90/da/7e/90da7e3c271f3441533f336d18169139.jpg" alt="Dish 9" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Mushrom Broccoli</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/02/7e/2f/027e2fa70c57965f81b3dcd978eead35.jpg" alt="Dish 10" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Sauteed Spinach and Carrots </p>
+        </div>
+    </div>
+</section>
+
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p> Celestial Plate is a luxury culinary brand dedicated to delivering extraordinary dining experiences inspired by the cosmos. Our philosophy revolves around crafting dishes that not only delight the palate but also evoke wonder and imagination, merging artistic presentation with exquisite flavors. Our celestial-themed approach transforms every meal into a journey through the stars, offering customers a chance to savor the universe in every bite.</p>
+<section id="about" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #4B2E26; color: white;">
+    <h2>Meet Our Team</h2>
+    <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; width: 90%; height: 80%;">
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/4c/54/b2/4c54b22344123f12eaa6f5e8dd7b3402.jpg" alt="Team Member 1" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Owner</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://i.pinimg.com/736x/ee/34/34/ee34347211a3d0744667a86096949da8.jpg" alt="Team Member 2" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Manager</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="Marketing.png" alt="Team Member 3" style="width: 100%; height: 100px; object-fit: cover;">
+            <p> Marketing Officer</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="Finance.png" alt="Team Member 4" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Finance Officer</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="Chef.png" alt="Team Member 5" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Chef</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="Crew 1.png" alt="Team Member 6" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Crew</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="Crew 2.png" alt="Team Member 7" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Crew</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="Crew 3.png" alt="Team Member 8" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Crew</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="Crew 4.png" alt="Team Member 9" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Crew</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="Crew 5.png" alt="Team Member 10" style="width: 100%; height: 100px; object-fit: cover;">
+            <p>Crew</p>
+        </div>
+    </div>
+</section>
+
+    </section>
+    <section id="book">
+        <h2>Book a Table</h2>
+        <p>Reserve your spot now!</p>
+<section id="book" style="width: 100vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #2F1B13; color: white; padding: 20px; box-sizing: border-box;">
+    <h2>Book a Table</h2>
+    <form style="width: 100%; max-width: 400px;">
+        <div style="margin-bottom: 15px;">
+            <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; outline: none;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; outline: none;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="date" style="display: block; margin-bottom: 5px;">Date:</label>
+            <input type="date" id="date" name="date" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; outline: none;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="time" style="display: block; margin-bottom: 5px;">Time:</label>
+            <input type="time" id="time" name="time" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; outline: none;">
+        </div>
+        <button type="submit" style="width: 100%; padding: 10px; background-color: #8B4513; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+            Reserve Now
+        </button>
+    </form>
+</section>
+
+    </section>
+    <section id="order">
+        <h2>Make an Order</h2>
+        <p>Order your favorite dishes online.</p>
+<section id="order" style="width: 100vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #4B2E26; color: white; padding: 20px; box-sizing: border-box;">
+    <h2>Make an Order</h2>
+    <form style="width: 100%; max-width: 400px;">
+        <div style="margin-bottom: 15px;">
+            <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; outline: none;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; outline: none;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="address" style="display: block; margin-bottom: 5px;">Delivery Address:</label>
+            <input type="text" id="address" name="address" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; outline: none;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="order" style="display: block; margin-bottom: 5px;">Your Order:</label>
+            <textarea id="order" name="order" rows="4" required style="width: 100%; padding: 10px; border-radius: 5px; border: none; outline: none;"></textarea>
+        </div>
+        <button type="submit" style="width: 100%; padding: 10px; background-color: #8B4513; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+            Place Order
+        </button>
+    </form>
+</section>
+
+    </section>
+    <footer>
+        &copy; 2024 Celestial Plate. All Rights Reserved.
+    </footer>
+</body>
+</html>
